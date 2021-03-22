@@ -3,6 +3,9 @@ import { Text, StyleSheet, View, Image, TouchableOpacity } from 'react-native'
 
 export default class HomeScreen extends React.Component {
     render() {
+
+   
+
         return (
             <View style={styles.container}>
                 
@@ -58,6 +61,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     // justifyContent: 'center'
     backgroundColor: '#fff',
+   
     },
     top: {
     backgroundColor: '#fff',
